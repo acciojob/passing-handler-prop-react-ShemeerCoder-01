@@ -5,6 +5,7 @@ html, body {
 
 #master {
     height: 75%;
+    margin: 0 20%;
     vertical-align: baseline;
     padding-top: 10%;
 }
@@ -50,4 +51,13 @@ button {
 .btn-green {
     background: rgb(44, 209, 88);
     color: black;
+}
+#children-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    margin-left: 5%;
+}
+#btns{
+    margin-left: 20%;
 }
